@@ -1,0 +1,64 @@
+
+2.Create your own resume data in JSON format
+
+
+
+
+var resume ={
+    "basics": {
+      "name": "vimal venkatesan",
+      "email": "vimal030100@gmail.com",
+      "phone" : 1234567,
+      "degree" : "B.E in electonics and instrumentation",
+      "location": {
+          "state": "tamilnadu",
+        "address": "appadurai 1st street ayanavaram",
+        "postalCode": "600023",
+        "city": "chennai",
+      },
+
+    },
+
+    "education" : [
+        {
+            "institution" : "easwari engineering college",
+            "course" : "electronics and instrumentaton",
+            "gpa" : "7.5"
+        }
+    ],
+
+    "skills":["good communication", "adaptability","front-end"],
+    "interest":["sports","travelling"],
+
+      "languages": [
+    {
+      "language": ["tamil","english","hindi"],
+      "fluency": "medium"
+    }
+  ],      
+       
+
+}
+
+console.log(resume)
+
+
+
+output :   { basics: 
+   { name: 'vimal venkatesan',
+     email: 'vimal030100@gmail.com',
+     phone: 1234567,
+     degree: 'B.E in electonics and instrumentation',
+     location: 
+      { state: 'tamilnadu',
+        address: 'appadurai 1st street ayanavaram',
+        postalCode: '600023',
+        city: 'chennai' } },
+  education: 
+   [ { institution: 'easwari engineering college',
+       course: 'electronics and instrumentaton',
+       gpa: '7.5' } ],
+  skills: [ 'good communication', 'adaptability', 'front-end' ],
+  interest: [ 'sports', 'travelling' ],
+  languages: [ { language: [Array], fluency: 'medium' } ] }
+
