@@ -1,0 +1,60 @@
+1. for-in loop
+
+
+var obj = {a: 1, b: 2, c: 3};
+for (var i  in obj) {
+  console.log(i,obj[i]);
+} 
+
+
+Output:
+a 1
+b 2
+c 3
+----------------------------------
+
+2. for-Each loop
+
+const obj = [
+    {
+        brand : "apple",
+        model : "ios"
+    },
+    {
+        brand : "dell",
+        model : "inspiron"
+    }
+    
+    ];
+    
+    obj.forEach((x) => {
+        console.log(x)
+    });
+	
+	
+	Output:
+{ brand: 'apple', model: 'ios' }
+{ brand: 'dell', model: 'inspiron' }
+
+-----------------------------------------
+
+for-of loop
+
+const obj = [
+    {
+        brand : "apple",
+        model : "ios"
+    },
+    {
+        brand : "dell",
+        model : "inspiron"
+    }
+    
+    
+    ]
+   for(let laptop of obj){
+       console.log(laptop)
+   }
+
+
+
